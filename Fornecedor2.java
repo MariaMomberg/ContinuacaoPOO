@@ -24,9 +24,10 @@ public class Fornecedor2 {
 		System.out.println(fornecedor.getEmail());
 		System.out.println(fornecedor.getInscricaoEstadual());  
 		
-		fornecedor.acessar(200);
-		fornecedor.fornecerCnpj();
-		fornecedor.fornecerEndereco();
-		fornecedor.fornecerInscricaoEstadual();
+		fornecedor.fornecerProduto("Fornecer mouse");
+		fornecedor.atualizarEndereco("Bairro Castelo, 153 - Campo Grande - MS");
+		fornecedor.enviarEmail("Seu pacote está a caminho");
+		fornecedor.mostrarContato();
 }
 }
+
