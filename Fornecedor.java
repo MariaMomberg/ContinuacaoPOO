@@ -57,16 +57,21 @@ public String getInscricaoEstadual() {
 public void setInscricaoEstadual(String inscricaoEstadual) {
 	InscricaoEstadual = inscricaoEstadual;
 }
-public void acessar(int identidade) {
-	System.out.println("O usuário " + identidade + " acessou");
+public void fornecerProduto(String produto) {
+        System.out.println("O fornecedor " + nomeFantasia + " fornece: " + produto);
+    }
+
+    public void atualizarEndereco(String novoEndereco) {
+        this.endereco = novoEndereco;
+        System.out.println("Endereço alterado para: " + novoEndereco);
+    }
+
+    public void enviarEmail(String mensagem) {
+        System.out.println("Enviando email para " + email + ": " + mensagem);
+    }
+
+    public void mostrarContato() {
+        System.out.println("Contato do fornecedor " + nomeFantasia + ": " + fone + " | " + email);
 }
-public void fornecerCnpj() {
-	System.out.println("O usuário forneceu o cnpj");
 }
-public void fornecerEndereco() {
-	System.out.println("O endereço foi fornecido");
-}
-public void fornecerInscricaoEstadual() {
-	System.out.println("A inscrição estadual foi fornecida");
-}
-}
+
