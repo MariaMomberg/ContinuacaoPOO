@@ -42,4 +42,7 @@ System.out.println("O usuário " + identidade + " acessou");
 public void inserir() {
 	System.out.println("O usuário inseriu a sua senha");
 }
+public void mostrarPermissao() {
+    System.out.println("Permissão do usuário " + nome + ": " + permissao);
+}
 }
