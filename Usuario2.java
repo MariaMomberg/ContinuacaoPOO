@@ -20,5 +20,7 @@ public class Usuario2 {
 		
 		usuario.acessar(2308);
 		usuario.inserir();
+		usuario.mostrarPermissao();
 	}
 }
+
